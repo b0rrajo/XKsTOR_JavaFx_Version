@@ -1,7 +1,7 @@
 <p align="center">
   <img src="src/main/resources/com/acarballeira/jdbc_sqlite/xestorBiblioteca/ui/logo.jpg" alt="BookShelf" width="100">
 </p>
-<h1 align="center">XsTOR · Xestor de biblioteca (JavaFX)</h1>
+<h1 align="center">XKsTOR · Xestor de biblioteca (JavaFX)</h1>
 
 Versión con interface gráfica JavaFX do proxecto trimestral de xestión de material bibliográfico,
 o seu estado e os seus empréstitos. A base de datos segue sendo **SQLite** (`xestorBibliotecas.db`),
