@@ -39,9 +39,8 @@ doc/                           Manual_de_uso_XsTOR.pdf e capturas
 
 ## Manual
 
-Ver [`doc/Manual_de_uso_XsTOR.pdf`](doc/Manual_de_uso_XsTOR.pdf).
-
-<sub>_MATERIA: ACCESO A DATOS_ · Autor: Daniel Borrajo Fernández</sub>
+>[!NOTE]
+>Manual en desarrollo.
 
 ## Instalador para Windows (.exe)
 
