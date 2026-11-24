@@ -1,0 +1,7 @@
+com.acarballeira.jdbc_sqlite.xestorBiblioteca
+com.acarballeira.jdbc_sqlite.xestorBiblioteca.dao
+com.acarballeira.jdbc_sqlite.xestorBiblioteca.exceptions
+com.acarballeira.jdbc_sqlite.xestorBiblioteca.model
+com.acarballeira.jdbc_sqlite.xestorBiblioteca.service
+com.acarballeira.jdbc_sqlite.xestorBiblioteca.ui
+com.acarballeira.jdbc_sqlite.xestorBiblioteca.ui.views

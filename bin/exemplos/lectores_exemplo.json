@@ -1,0 +1,10 @@
+[
+  { "codLector": "LEC-001", "dniLector": "32745128K", "nombreLector": "Uxía", "apellidosLector": "Fernández Lago", "edadLector": 34 },
+  { "codLector": "LEC-002", "dniLector": "44812390P", "nombreLector": "Brais", "apellidosLector": "Otero Castro", "edadLector": 19 },
+  { "codLector": "LEC-003", "dniLector": "36098214M", "nombreLector": "Antía", "apellidosLector": "Rodríguez Paz", "edadLector": 27 },
+  { "codLector": "LEC-004", "dniLector": "76543219D", "nombreLector": "Xoán", "apellidosLector": "Varela Iglesias", "edadLector": 52 },
+  { "codLector": "LEC-005", "dniLector": "53190827R", "nombreLector": "Sabela", "apellidosLector": "Méndez Rey", "edadLector": 16 },
+  { "codLector": "LEC-006", "dniLector": "35881246W", "nombreLector": "Iago", "apellidosLector": "Souto Pereira", "edadLector": 41 },
+  { "codLector": "LEC-007", "dniLector": "47920315B", "nombreLector": "Noa", "apellidosLector": "Barreiro Gil", "edadLector": 23 },
+  { "codLector": "LEC-008", "dniLector": "33417608H", "nombreLector": "Martiño", "apellidosLector": "López Vidal", "edadLector": 67 }
+]

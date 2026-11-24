@@ -1,0 +1,148 @@
+/* XsTOR · Xestor de Bibliotecas — folla de estilos */
+
+.root {
+    -fx-font-family: "Segoe UI", "Inter", "DejaVu Sans", sans-serif;
+    -fx-font-size: 13px;
+    -acento: #2563eb;
+    -acento-escuro: #1d4ed8;
+    -fondo: #f1f5f9;
+    -texto: #0f172a;
+    -texto-suave: #64748b;
+    -borde: #e2e8f0;
+    -fx-focus-color: #2563eb;
+    -fx-faint-focus-color: #2563eb22;
+}
+
+.root-pane { -fx-background-color: -fondo; }
+
+/* ---------- cabeceira ---------- */
+.cabeceira {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent -borde transparent;
+    -fx-border-width: 0 0 1 0;
+}
+.marca { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -acento; }
+.submarca { -fx-font-size: 15px; -fx-text-fill: -texto-suave; }
+.titulo-seccion {
+    -fx-font-size: 13px; -fx-text-fill: -acento; -fx-font-weight: bold;
+    -fx-background-color: #dbeafe; -fx-background-radius: 12; -fx-padding: 4 12 4 12;
+}
+
+/* ---------- menú lateral ---------- */
+.menu-lateral { -fx-background-color: #1e293b; }
+.boton-menu {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cbd5e1;
+    -fx-font-size: 14px;
+    -fx-padding: 10 14 10 14;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+.boton-menu:hover { -fx-background-color: #334155; -fx-text-fill: white; }
+.boton-menu:selected { -fx-background-color: -acento; -fx-text-fill: white; -fx-font-weight: bold; }
+
+/* ---------- barra de estado ---------- */
+.barra-estado {
+    -fx-background-color: white;
+    -fx-border-color: -borde transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+.barra-estado .label { -fx-text-fill: -texto-suave; -fx-font-size: 12px; }
+
+/* ---------- vistas ---------- */
+.vista-titulo { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -texto; }
+.vista-descricion { -fx-text-fill: -texto-suave; }
+.subtitulo { -fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: -texto; }
+.pe-taboa { -fx-text-fill: -texto-suave; -fx-font-size: 12px; }
+.nota { -fx-text-fill: -texto-suave; -fx-font-size: 12px; -fx-font-style: italic; }
+.erro-formulario { -fx-text-fill: #b91c1c; -fx-font-weight: bold; }
+.ruta { -fx-font-family: "Consolas", "DejaVu Sans Mono", monospace; -fx-text-fill: -texto; }
+
+.barra-ferramentas {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: -borde;
+    -fx-border-radius: 10;
+}
+
+.bloque {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: -borde;
+    -fx-border-radius: 10;
+}
+
+.scroll-transparente, .scroll-transparente > .viewport { -fx-background-color: -fondo; -fx-background: -fondo; }
+
+/* ---------- botóns ---------- */
+.button {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-padding: 7 14 7 14;
+    -fx-text-fill: -texto;
+    -fx-cursor: hand;
+}
+.button:hover { -fx-background-color: #f8fafc; -fx-border-color: #94a3b8; }
+.button:disabled { -fx-opacity: 0.45; }
+.boton-primario { -fx-background-color: -acento; -fx-border-color: -acento; -fx-text-fill: white; -fx-font-weight: bold; }
+.boton-primario:hover { -fx-background-color: -acento-escuro; -fx-border-color: -acento-escuro; }
+.boton-perigo { -fx-text-fill: #b91c1c; -fx-border-color: #fca5a5; }
+.boton-perigo:hover { -fx-background-color: #fef2f2; -fx-border-color: #ef4444; }
+
+.buscador {
+    -fx-background-radius: 7; -fx-border-radius: 7;
+    -fx-border-color: #cbd5e1; -fx-background-color: #f8fafc;
+    -fx-padding: 6 10 6 10;
+}
+
+/* ---------- táboas ---------- */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: -borde;
+    -fx-border-radius: 10;
+    -fx-padding: 2;
+}
+.table-view .column-header-background { -fx-background-color: #f8fafc; -fx-background-radius: 10 10 0 0; }
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent -borde transparent;
+    -fx-size: 34px;
+}
+.table-view .column-header .label { -fx-text-fill: -texto-suave; -fx-font-weight: bold; -fx-font-size: 12px; }
+.table-row-cell { -fx-cell-size: 34px; -fx-background-color: white; -fx-border-color: transparent transparent #f1f5f9 transparent; }
+.table-row-cell:odd { -fx-background-color: #fcfdfe; }
+.table-row-cell:hover { -fx-background-color: #eff6ff; }
+.table-row-cell:selected { -fx-background-color: #dbeafe; }
+.table-row-cell:selected .table-cell { -fx-text-fill: -texto; }
+.table-cell { -fx-padding: 0 8 0 8; -fx-alignment: CENTER-LEFT; }
+
+.etiqueta { -fx-padding: 2 9 2 9; -fx-background-radius: 10; -fx-font-size: 11px; -fx-font-weight: bold; }
+.etiqueta-ok { -fx-background-color: #dcfce7; -fx-text-fill: #15803d; }
+.etiqueta-ko { -fx-background-color: #ffedd5; -fx-text-fill: #c2410c; }
+
+/* ---------- tarxetas do panel ---------- */
+.tarxeta { -fx-background-color: white; -fx-background-radius: 12; -fx-border-radius: 12; -fx-border-color: -borde; -fx-border-width: 1 1 1 5; }
+.tarxeta-valor { -fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: -texto; }
+.tarxeta-etiqueta { -fx-text-fill: -texto-suave; }
+.t-azul { -fx-border-color: -borde -borde -borde #2563eb; }
+.t-verde { -fx-border-color: -borde -borde -borde #16a34a; }
+.t-violeta { -fx-border-color: -borde -borde -borde #7c3aed; }
+.t-laranxa { -fx-border-color: -borde -borde -borde #ea580c; }
+
+/* ---------- diálogos ---------- */
+.xestor-dialog { -fx-background-color: white; }
+.xestor-dialog > .header-panel { -fx-background-color: #f8fafc; -fx-border-color: transparent transparent -borde transparent; }
+.xestor-dialog > .header-panel .label { -fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: -texto; }
+.xestor-dialog .button-bar .button:default { -fx-background-color: -acento; -fx-border-color: -acento; -fx-text-fill: white; -fx-font-weight: bold; }
+.resumo-importacion { -fx-font-size: 14px; }
+.informe { -fx-font-family: "Consolas", "DejaVu Sans Mono", monospace; }
+
+/* ---------- iconas vectoriais ---------- */
+.icona { -fx-background-color: #334155; }
+.boton-primario .icona, .xestor-dialog .button-bar .button:default .icona { -fx-background-color: white; }
+.boton-perigo .icona { -fx-background-color: #b91c1c; }
+.boton-menu .icona { -fx-background-color: #94a3b8; }
+.boton-menu:hover .icona, .boton-menu:selected .icona { -fx-background-color: white; }
